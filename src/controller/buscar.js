@@ -7,7 +7,6 @@ const coleccionesPermitidas = [
     'usuarios',
     'categorias',
     'productos',
-    'roles'
 ];
 
 const buscarUsuarios = async( termino = '', res = response ) => {

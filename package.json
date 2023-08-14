@@ -1,0 +1,20 @@
+{
+  "name": "segunda-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cortiz1692/Segunda-Entrega-Integradora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cortiz1692/Segunda-Entrega-Integradora/issues"
+  },
+  "homepage": "https://github.com/Cortiz1692/Segunda-Entrega-Integradora#readme"
+}

@@ -1,21 +1,31 @@
 const { Router } = require('express');
 
 const { crearProducto,
-        obtenerProductos,
-        obtenerProducto,
-        actualizarProducto, 
-        borrarProducto } = require('../controller/productos');
+    obtenerProductosPaginados,
+    obtenerProductos,
+    obtenerProducto,
+    actualizarProducto,
+    borrarProducto } = require('../controller/productos');
+
 
 const router = Router();
 
-router.get('/', obtenerProductos );
 
-router.get('/:id', obtenerProducto );
+//  Obtener todas las categorias - publico
+router.get('/', obtenerProductos);
 
-router.post('/', crearProducto );
+router.get('/paginated', obtenerProductosPaginados);
 
-router.put('/:id', actualizarProducto );
+// Obtener una categoria por id - publico
+router.get('/:id', obtenerProducto);
 
+// Crear categoria - privado 
+router.post('/', crearProducto);
+
+// Actualizar - privado - cualquiera con token válido
+router.put('/:id', actualizarProducto);
+
+// Borrar una categoria - Admin
 router.delete('/:id', borrarProducto);
 
 

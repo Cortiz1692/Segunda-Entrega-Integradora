@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Cortiz1692/Segunda-Entrega-Integradora/issues"
   },
-  "homepage": "https://github.com/Cortiz1692/Segunda-Entrega-Integradora#readme"
+  "homepage": "https://github.com/Cortiz1692/Segunda-Entrega-Integradora#readme",
+  "dependencies": {
+    "passport": "^0.6.0"
+  }
 }

@@ -7,8 +7,8 @@ const config = {
         url:"MONGO URL"
     },
     github:{
-        clientId:"GUTHUB CLIENT ID",
-        clienteSecret:"GITHUB CLIENT SECRET",
+        clientId:process.env.GITHUB_CLIENT_ID,
+        clienteSecret:process.env.GITHUB_SECRET_ID,
         callbackUrl:"http://localhost:8080/api/sessions/github-callback"
     }
 }

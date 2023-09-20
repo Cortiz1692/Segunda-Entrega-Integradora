@@ -1,2 +1,2 @@
-# 2da entrega-Integradora
+# Arquitectura servidor diseño
 
